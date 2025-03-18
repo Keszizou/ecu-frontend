@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 function App() {
@@ -33,10 +32,6 @@ function App() {
       .catch(() => {
         setMessage("Error al conectar con el backend.");
       });
-  }
-
-  const handleFileChange = (event) => {
-    setFile(event.target.files[0]);
   };
 
   return (
